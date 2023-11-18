@@ -1,4 +1,5 @@
 import React from 'react';
+import img2 from "../assets/img/download.png"
 
 const Header = () => {
   const menu = [
@@ -22,7 +23,7 @@ const Header = () => {
   return (
     <div className='flex items-center  w-screen justify-between border-b-[1px] bg-white'>
       <div className='bg-black w-[90px] h-[90px]'>
-        <img src="/src/assets/img/download.png" alt="" className='p-3' />
+        <img src={img2} alt="" className='p-3' />
       </div>
       <div className='hidden md:flex gap-14'>
         {menu.map((item) => (
